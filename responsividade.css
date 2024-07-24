@@ -1,0 +1,594 @@
+@media (max-width: 480px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header{
+        background: linear-gradient(180deg, #250000 0%, #000 100%);
+        height: 45rem;
+    }
+
+    header .img-logo{
+        text-align: center;
+        position: relative;
+        top: 0;
+        height: 25vh;
+    }
+
+    header .description{
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 25.016px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    header span{
+        text-decoration-line: underline;
+    }
+
+    header h2{
+        color: #FF002E;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 28.715px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    header .titulo{
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .img-adv{
+       position: relative;
+       top: 2rem;
+       text-align: center;
+    }
+
+    .img-adv img{
+        width: 330px;
+    }
+
+    header .botao{
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    header .botao button{
+        border-radius: 106.5px;
+        background: linear-gradient(90deg, #C50000 0%, #5F0000 100%);
+        color: white;
+        padding: 20px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+    }
+
+    header .botao button a{
+        text-decoration: none;
+        color: white;
+    }
+
+    header .botao button:hover{
+        opacity: 0.5;
+    }
+
+    main{
+        background-color: #000;
+        height: 2500vh;
+    }
+
+    main .container{
+        position: relative;
+        top: 20rem;
+        height: 60rem;
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: 5px;
+        border-image-source: linear-gradient(to right, #FA0000, #000000, #FF0000, #380000);
+    }
+
+    main  section{
+        margin-top: 2rem;
+    }
+    
+    main  section .h1a{
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    main section .h1a span{
+        color: red;
+    }
+
+    main .titulos {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-right: 40px;
+    }
+
+    main .titulos h1,h2{
+        color: red;
+        text-transform: uppercase;
+    }
+
+    main .titulos .df{
+        color: white;
+    }
+
+    main .titulos section{
+        border: red 1px solid;
+        list-style-type: none;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .img-engrenagem{
+        text-align: center;
+        position: relative;
+        top: 2rem;
+    }
+
+    .bolalayer{
+        border-radius: 366px;
+        background: rgba(255, 0, 0, 0.70);
+        filter: blur(100px);
+        width: 340px;
+        height: 366px;
+        position: relative;
+        top: 20rem;
+    }
+
+    aside{
+        position: relative;
+        top: 25rem;
+    }
+
+    aside h1{
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+
+    aside h1 span{
+        color: red;
+    }
+
+    .imagemdosobre{
+        text-align: center;
+    }
+
+    .imagemdosobre img{
+        height: 300px;
+    }
+
+    aside p{
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    main article{
+        position: relative;
+        top: 35rem;
+    }
+
+    main article h1{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 45.495px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    main article h1 span{
+        color: red;
+        text-decoration-line: underline;
+        font-weight: bold;
+    }
+
+    main article .layerdoarticle{
+        width: 300px;
+        height: 30px;
+        background: #F00;
+        filter: blur(50px);
+        text-align: center;
+        position: relative;
+        bottom: 90px;
+        left: 30px;
+    }
+
+    main article ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 50px;
+        gap: 50px;
+        
+    }
+
+    main article ul li p{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+
+    main article ul li{
+        border: 1px solid red;
+        border-radius: 20px;
+    }
+
+    main .process{
+        position: relative;
+        top: 55rem;
+    }
+
+    main .process .h1do{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    main .process h1 span{
+        color: red;
+        text-decoration-line: underline;
+        font-weight: bold;
+    }
+
+    main .process .layerdoarticle{
+        width: 300px;
+        height: 30px;
+        background: #F00;
+        filter: blur(50px);
+        text-align: center;
+        position: relative;
+        bottom: 80px;
+        left: 30px;
+    }
+
+    main .process ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-right: 10%;
+        gap: 50px;
+    }
+
+    main .process ul h1{
+        text-transform: uppercase;
+        font-family: Poppins;
+        text-decoration-line: underline;
+    }
+
+    main .process ul p{
+        font-family: Poppins;
+        font-weight: bold;
+    }
+
+    main .process ul li{
+        list-style-type: none;
+        border: 1px solid red;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    main .functions{
+        position: relative;
+        top: 65rem;
+    }
+
+    main .functions .hifun{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+    }
+
+    main .functions ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-right: 10%;
+        gap: 50px;
+    }
+
+    main .functions ul h1{
+        text-transform: uppercase;
+        font-family: Poppins;
+        text-decoration-line: underline;
+        color: red;
+    }
+
+    main .functions ul p{
+        font-family: Poppins;
+        font-weight: bold;
+    }
+
+    main .functions ul li{
+        list-style-type: none;
+        border: 1px solid red;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    main .questions{
+        position: relative;
+        top: 75rem;
+    }
+
+    main .questions h1{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+    }
+
+    #container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      
+      }
+
+      #container span{
+        font-weight: bold;
+      }
+      
+      .accordion{
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        padding: 12px;
+        cursor: pointer;
+        text-align: center;
+      }
+      
+      .accordion-header{
+        border: none;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      .accordion-body{
+        color: #444;
+        font-size: 14px;
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        transition: opacity .3s;
+      }
+      
+      .accordion-body p{
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 20px;
+      }
+      
+      #container button{
+        color: white;
+      }
+      
+      .accordion-body.active{
+        height: 100%;
+        opacity: 1;
+        padding: 5px 0px;
+      }
+      
+      .arrow{
+        transition: transform .2s linear;
+      }
+      
+      .accordion:has(.active) .arrow{
+        transform: rotate(180deg);
+      }
+
+      .contato{
+        position: relative;
+        top: 85rem;
+      }
+
+      .contato h1{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+      }
+
+      .contato h1 span{
+        color: red;
+        text-decoration-line: underline;
+      }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px;
+        border-radius: 5px;
+        margin-top: 40px;
+        border: 1px solid #ff0000;
+    }
+
+    form h3{
+        color: white;
+        text-align: center;
+    }
+    
+    form textarea{
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    form label{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    form label input{
+        height: 5vh;
+        padding: 5px;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    form button{
+        background: linear-gradient(90deg, #ff0000 0%, #ff8383 100%);
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        max-width: 100%;
+    }
+    
+    .contatoss .contatoinfo form button:hover{
+        opacity: 0.5;
+        transition: linear 1s;
+    }
+
+    main .instaewhats{
+        position: relative;
+        top: 90rem;
+        text-align: center;
+    }
+
+    main .instaewhats .logos img{
+        height: 70px;
+    }
+
+    main .instaewhats .logos h3{
+        color: white;
+        font-weight: bold;
+        font-family: Poppins;
+    }
+
+    main .instaewhats .logos a{
+        text-decoration: none;
+    }
+
+
+    main footer{
+        position: relative;
+        top: 95rem;
+    }
+
+    main footer img{
+        height: 300px;
+    }
+
+    .imagemfinal{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .hidden{
+        opacity: 0;
+        transition: all 2s;
+        transform: translateX(-100%);
+    }
+    
+    .show{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
